@@ -1,7 +1,9 @@
 import React from "react";
 
 const person = () => {
-  return <p>I'm a Peron!</p>;
+  return (
+    <p>I'm a Peron and I am { Math.floor(Math.random() * 30) } years old!</p>
+  );
 };
 
 export default person;
